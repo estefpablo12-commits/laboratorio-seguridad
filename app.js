@@ -1,3 +1,3 @@
-// app.js
-const GITHUB_TOKEN = "ghp_000000000000000000000000000000000000";
-console.log("Prueba de token ficticio");
+require('dotenv').config();
+const DB_PASSWORD = process.env.DB_PASSWORD;
+console.log("Aplicación iniciada de forma segura.");

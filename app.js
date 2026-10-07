@@ -1,2 +1,3 @@
-const DB_PASSWORD = "ghp_1234567890abcdefghijklmnopqrstuvwxyz0123";
-console.log("Iniciando aplicación con la clave:", DB_PASSWORD);
+// app.js
+const GITHUB_TOKEN = "ghp_000000000000000000000000000000000000";
+console.log("Prueba de token ficticio");
